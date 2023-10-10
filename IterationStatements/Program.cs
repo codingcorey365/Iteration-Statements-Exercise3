@@ -112,21 +112,57 @@ namespace IterationStatements
 
         //Heatin Up Section:
         //Write a method to check if an integer(from the user) is in the range -10 to 10
+        //public static void InRange(int x)
+        //{
+        //    if (x >= -10 && x <= 10)
+        //    {
+        //        Console.WriteLine("Your Number is in range");
+        //    }
+        //    //else if (x <= 10)
+        //    //{
+        //    //    Console.WriteLine("Your number is odd");
+        //    //}
+        //    else
+        //    {
+        //        Console.WriteLine("Your number is not in range");
+        //    }
+        //}
 
         //Write a method to display the multiplication table(from 1 to 12) of a given integer
+        //public static void mulitplyTable(int userInput) 
+        //{
+        //    int i = 1;
+        //    Console.Clear();
+        //    while (i <= 12) 
+        //    {
+        //        Console.WriteLine(i * userInput);
+
+        //        i++;
+        //    }
+        //}
+
 
 
         //Call the methods to test them in the Main method below
         static void Main(string[] args)
         {
             // ReturnEvery3rdNumber();
-            //Print1000();
-            //IsEqual(0, 0);
-            //IsEven(25);
-            //IsPositive(5);
-            //Console.WriteLine("Please input your age");
-            //string input = Console.ReadLine();
-            //CanVote(input);
+            // Print1000();
+            // IsEqual(0, 0);
+            // IsEven(25);
+            // IsPositive(5);
+
+            // Console.WriteLine("Please input your age");
+            // string input = Console.ReadLine();
+            // CanVote(input);
+
+            //Console.WriteLine("write a number that is in the range -10 to 10");
+            //var userInput = Convert.ToInt32(Console.ReadLine());
+            //InRange(userInput);
+
+            //Console.WriteLine("write a number to multiply in a table");
+            //var userInput = Convert.ToInt32(Console.ReadLine());
+            //mulitplyTable(userInput);
 
         }
     }
